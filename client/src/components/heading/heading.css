@@ -1,0 +1,38 @@
+.menu-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+.bar-1,
+.bar-2,
+.bar-3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+nav.navbar-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav.navbar-area {
+  background: #081828;
+  color: #ffffff;
+  padding: 23px 0;
+}
